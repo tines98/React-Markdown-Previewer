@@ -1,0 +1,50 @@
+body {
+  background-color: #011627;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#editor {
+  color: #FDFFFC;
+  background-color: #2EC4B6;
+}
+
+#preview {
+  background-color: #E71D36;
+  color: #FDFFFC;
+  border-radius: 5px;
+  padding: 5px;
+}
+#preview h1 {
+  color: blue;
+  border-bottom: 2px solid black;
+}
+#preview h2 {
+  color: #222;
+  border-bottom: 1px solid #222;
+}
+#preview h3 {
+  color: yellow;
+}
+#preview p {
+  color: lightgray;
+}
+#preview i {
+  color: cyan;
+}
+#preview code {
+  color: white;
+}
+#preview pre {
+  background-color: darkred;
+}
+#preview blockquote {
+  background-color: teal;
+}
+#preview table {
+  border-collapse: collapse;
+}
+#preview td, #preview th {
+  border: 1px solid white;
+}
